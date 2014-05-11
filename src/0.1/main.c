@@ -2,11 +2,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-
-int main(){
-    /*setlocale(LC_CTYPE, "pt_br.UTF-8");*/
-    system("color 0E");
-    int i,j;
+void logo(){
+    int i;
     for(i=0;i<80;i++){
         printf("%c",205);
     }
@@ -26,5 +23,52 @@ int main(){
     for(i=0;i<80;i++){
         printf("%c",205);
     }
+}
+void menuPrin(){
+    int escolha;
+    system("cls");
+    logo();
+    printf("\n\n\n\n");
+    printf("\n\t\t\t1. Quadro de horarios\n");
+    printf("\n\t\t\t2. Consultar aulas restantes\n");
+    printf("\n\t\t\t3. Consultar datas de provas\n");
+    printf("\n\t\t\t4. Consultar resultados de provas\n");
+    printf("\n\t\t\t5. Criticas e sugestoes\n");
+    printf("\n\t\t\t6. Sair do sistema");
+    printf("\n\n\n\t\t\tDigite a opcao: ");
+    scanf("%d",&escolha);
+    switch(escolha){
+        case 1:{
+
+            break;
+        }
+        case 2:{
+
+            break;
+        }
+        case 3:{
+            printf("3");
+            break;
+        }
+        case 4:{
+            printf("4");
+            break;
+        }
+        case 5:{
+            printf("5");
+            break;
+        }
+        case 6:{
+            printf("6");
+            break;
+        }
+    }
+
+}
+
+int main(){
+    system("color f9");
+    menuPrin();
+
 
 }
