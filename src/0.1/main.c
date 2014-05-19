@@ -33,7 +33,20 @@ void volta(){
 void quadroHorario(){
     system("cls");
     logo();
-    printf("\t\t\t\tQuadro de Horarios");
+    printf("\t\t\t\tQuadro de Horarios\n");
+    printf("\t\t_____________________________________________________________\n");;
+    printf("\t\t|   Hora  |   SEG   |   TER   |   QUA   |   QUI   |   SEX   |\n");
+    printf("\t\t|_________|_________|_________|_________|_________|_________|\n");
+    printf("\t\t|  07:00  |  LEGIS. | M.AMBI. | LEGIS.  | DIR.DEF.| P.SOCOR.|\n");
+    printf("\t\t|  08:00  | DIR.DEF.| P.SOCOR.| MECANICA|  LEGIS. | M.AMBI. |\n");
+    printf("\t\t|  09:00  | MECANICA| DIR.DEF.| LEGIS.  | DIR.DEF.|  LEGIS. |\n");
+    printf("\t\t|  10:00  |  LEGIS. | DIR.DEF.| LEGIS.  | P.SOCOR.| MECANICA|\n");
+    printf("\t\t|  14:00  | DIR.DEF.| MECANICA| P.SOCOR.| M.AMBI. |  LEGIS. |\n");
+    printf("\t\t|  15:00  |         |         |         |         |  LEGIS. |\n");
+    printf("\t\t|  16:00  | P.SOCOR.|  LEGIS. | M.AMBI. |  LEGIS. | DIR.DEF.|\n");
+    printf("\t\t|  17:00  | LEGIS.  | MECANICA| P.SOCOR.| DIR.DEF.|         |\n");
+    printf("\t\t|  18:00  | M.AMBI. | DIR.DEF.|  LEGIS. | MECANICA|         |\n");
+    printf("\t\t|_________|_________|_________|_________|_________|_________|\n");
    volta();
 }
 void consultaAulas(){
